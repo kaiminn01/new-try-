@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyberpunk Meme Lord</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <img src="images/pepe.png" alt="Pepe Hacker" />
+    <h1>Cyberpunk Meme Lord</h1>
+    <p>Welcome to my dark portfolio. Memes meet tech.</p>
+  </section>
+</body>
+</html>
