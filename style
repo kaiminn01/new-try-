@@ -1,0 +1,58 @@
+body {
+  background: #0d0d0d;
+  color: #eee;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #111;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #0ff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f0f;
+}
+
+.hero, .about, .projects, .contact {
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.hero img, .about img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+h1 {
+  color: #0ff;
+  font-size: 2.5em;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.project-gallery img {
+  width: 200px;
+  border: 2px solid #0ff;
+}
+
+.project-card {
+  background: #111;
+  border: 1px solid #0ff;
+  padding: 2em;
+  width: 200px;
+}
